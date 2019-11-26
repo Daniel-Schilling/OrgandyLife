@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".ui.login.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="395dp"
+        android:layout_height="506dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-61dp"
+        app:srcCompat="@drawable/organdylife" />
+
+    <EditText
+        android:id="@+id/email_login"
+        android:layout_width="315dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/senha_login"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="396dp"
+        android:layout_marginBottom="19dp"
+        android:background="#ffff"
+        android:hint="  Email"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        android:textColorHint="#242424" />
+
+    <EditText
+        android:id="@+id/senha_login"
+        android:layout_width="315dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="197dp"
+        android:background="#ffff"
+        android:ems="10"
+        android:hint="  Senha"
+        android:inputType="textPassword"
+        android:textColorHint="#242424" />
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="9dp"
+        android:enabled="false"
+        android:text="Entrar"
+        android:textColor="#242424" />
+
+    <ProgressBar
+        android:id="@+id/pb_login"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="132dp"
+        android:indeterminateTint="#ffff"/>
+
+
+
+</RelativeLayout>

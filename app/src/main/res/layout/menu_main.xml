@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity_cadastro">
+
+    <item android:id="@+id/img_perfil"
+        android:title="@string/img_perfil"
+        android:incon="@drawable/ic_launcher_background"
+        android:orderInCategory="300"
+        app:showAsAction="ifRoom"/>
+
+</menu>
+</LinearLayout>

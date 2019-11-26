@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    tools:context=".Cadastro">
+
+    <EditText
+        android:id="@+id/et_nome_completo"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="340dp"
+        android:background="#ffff"
+        android:ems="10"
+        android:hint="  Nome Completo:"
+        android:inputType="textPersonName"
+        android:textColorHint="#242424" />
+
+    <EditText
+        android:id="@+id/et_cadastro_email"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="294dp"
+        android:background="#ffff"
+        android:ems="10"
+        android:hint="  E-mail:"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#242424" />
+
+    <EditText
+        android:id="@+id/et_cadastrar_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="240dp"
+        android:background="#ffff"
+        android:ems="10"
+        android:hint="  Senha:"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#242424" />
+
+    <EditText
+        android:id="@+id/et_conf_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="193dp"
+        android:background="#ffff"
+        android:ems="10"
+        android:hint="  Confirme a senha:"
+        android:inputType="textPassword"
+        android:textColorHint="#242424" />
+
+    <EditText
+        android:id="@+id/et_matricula"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="141dp"
+        android:background="#ffff"
+        android:ems="10"
+        android:hint="  Nº de Matrícula:"
+        android:inputType="textPersonName"
+        android:textColorHint="#242424" />
+
+    <Button
+        android:id="@+id/bt_cadastro"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginRight="-4dp"
+        android:layout_marginBottom="-1dp"
+        android:text="Cadastrar"
+        android:textColorHint="#242424" />
+
+    <View
+        android:id="@+id/img_perfil"
+        android:layout_width="121dp"
+        android:layout_height="116dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="78dp"
+        android:layout_weight="0"
+        android:background="@android:drawable/ic_menu_camera" />
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <CheckBox
+        android:id="@+id/cb_cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"
+        android:background="#ffff"
+        android:checked="false"
+        android:clickable="false"
+        android:indeterminateTint="#38b6ff"
+        android:onClick="onCheckboxClicked"
+        android:text="Aceito estudar e não vacilar!  " />
+
+</RelativeLayout>
